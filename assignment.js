@@ -1,3 +1,6 @@
+
+
+
 //convert kilometer to Meter
 function kilometerToMeter(kilometer) {
     let meter = 0;
@@ -9,8 +12,7 @@ function kilometerToMeter(kilometer) {
     }
     return meter;
   }
-  const convertKilometerToMeter = kilometerToMeter(40);
-  console.log(convertKilometerToMeter);
+  
 
 
 
@@ -25,8 +27,7 @@ function budgetCalculator(watch, phone, laptop) {
     }
     return totalCost;
 }
-const seeTotalCost = budgetCalculator(1, 1, 1);
-console.log(seeTotalCost);
+
 
 
 
@@ -57,5 +58,20 @@ function hotelCost(day) {
     }
     return totalCost;
 }
-const result = hotelCost(12);
-console.log(result);
+
+
+
+
+//mega Friend
+function megaFriend(friends){
+    let length=0;
+    let bigFriend="";
+    for(let i=0;i<friends.length;i++){
+     
+      if(friends[i].length>length){
+      length=friends[i].length;
+      bigFriend=friends[i];
+      }
+    }
+     return bigFriend;
+    }
